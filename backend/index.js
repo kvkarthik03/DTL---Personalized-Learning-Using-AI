@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const configuration = new Configuration({
-  organization: "org-0nmrFWw6wSm6xIJXSbx4FpTw",
-  apiKey: "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",
+  organization: "org-7ukK4IIyR7jscERIyXDPjdsW",
+  apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 
@@ -22,7 +22,7 @@ app.post("/", async (request, response) => {
     messages: [
       {
         role: "system",
-        content: "You are a EbereGPT. You can help with graphic design tasks",
+        content: "You are a EbereGPT. You can help with Linear Equations",
       },
       ...chats,
     ],
