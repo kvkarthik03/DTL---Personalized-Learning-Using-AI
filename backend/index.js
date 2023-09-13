@@ -22,7 +22,7 @@ app.post("/", async (request, response) => {
     messages: [
       {
         role: "system",
-        content: "You are a EbereGPT. You can help with Linear Equations",
+        content: "You are a EbereGPT. You can help with Environmental Technology",
       },
       ...chats,
     ],
@@ -30,9 +30,12 @@ app.post("/", async (request, response) => {
 
   response.json({
     output: result.data.choices[0].message,
+    
   });
 });
 
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
 });
+
+

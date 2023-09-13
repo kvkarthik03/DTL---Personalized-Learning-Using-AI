@@ -1,1 +1,24 @@
+.ai {
+    width: 550px;
+    float: left;
+    /* margin-top: 100px; */
+    height: 600px;
+    overflow-y: auto;
+}
 
+.pdf {
+    width: 60%;
+    /* margin-top: 100px; */
+    float: right;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+/* .heading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    /* z-index: 1000; 
+} */

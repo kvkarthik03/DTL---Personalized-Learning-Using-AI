@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "pythonia": "^1.0.3",
+    "react-pdf": "^7.3.3"
+  }
+}
